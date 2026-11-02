@@ -1,9 +1,9 @@
 {
   "skill": "land-value-estimation",
   "skill_version": "1.0.0",
-  "command": "land-value-estimation --bbox 116 39 117 40 --synthetic --output-dir Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\land-value-estimation\\_test_cli_synth --quiet",
-  "started_at": "2026-08-03T21:29:12.969813Z",
-  "finished_at": "2026-08-03T21:29:13.090902Z",
+  "command": "land-value-estimation --bbox 116 39 117 40 --synthetic --output-dir /tmp/batch2/geoskill-land-value-estimation/_test_cli_synth --quiet",
+  "started_at": "2026-11-02T15:22:09.720451Z",
+  "finished_at": "2026-11-02T15:22:09.932760Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -15,7 +15,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\land-value-estimation\\_test_cli_synth\\land_value.tif",
+      "path": "/tmp/batch2/geoskill-land-value-estimation/_test_cli_synth/land_value.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -32,7 +32,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\land-value-estimation\\_test_cli_synth\\hedonic_coefficients.json",
+      "path": "/tmp/batch2/geoskill-land-value-estimation/_test_cli_synth/hedonic_coefficients.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -44,7 +44,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\land-value-estimation\\_test_cli_synth\\value_stats.json",
+      "path": "/tmp/batch2/geoskill-land-value-estimation/_test_cli_synth/value_stats.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -66,7 +66,7 @@
     "n_total_pixels": 16384
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "land-value-estimation"
   },
   "error": null
